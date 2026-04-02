@@ -29,6 +29,7 @@ I like using mockups to organize all items which I use in the screen before codi
 - Hobbies:
   - Watch anime.
   - Read mangas.
+  - Play Videogames.
   - Learn/Test new technologies.
  ---
 ### Professional Links
