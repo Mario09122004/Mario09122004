@@ -25,6 +25,7 @@ I like using mockups to organize all items which I use in the screen before codi
 *About me:*
 - I prefer use Linux than windows to coding.
 - I prefer red berry tea than coffee.
+- I love Docker, but I understand that it is used in specific situations.
 - Hobbies:
   - Watch anime.
   - Read mangas.
