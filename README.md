@@ -1,6 +1,4 @@
-## Hello :)
-
----
+### Hello :)
 
 I’m Mario, a student of Technologies of Information and Software Development.
 
