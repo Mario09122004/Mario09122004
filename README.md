@@ -30,6 +30,12 @@ I like using mockups to organize all items which I use in the screen before codi
   - Watch anime.
   - Read mangas.
   - Learn/Test new technologies.
+ ---
+### 🔗 Professional Links
+- **Personal GitHub:** [Mario09122004](https://github.com/Mario09122004).
+- **Corporate GitHub:** [MarioLiraGTech](https://github.com/MarioLiraGTech).
+- **LinkedIn:** [Mario A. Lira Z.](www.linkedin.com/in/mario-alberto-lira-zamora-b891b5361)
+ 
 
 <!--
 **Mario09122004/Mario09122004** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
