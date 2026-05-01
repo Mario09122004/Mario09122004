@@ -10,10 +10,12 @@ My favorite tech stack:
   - Typescript
   - tailwind
   - shadcn/ui
-  Backend:
+
+Backend:
   - convex (to develop quickly)
   - node.js
-  Analyze data or AI:
+
+Analyze data or AI:
   - Python (Pandas, Tensorflow)
 
 but I understand that the choice of stack is depends of what I will work. For example, when choosing a database, it depends on whether the priority is read or write performance.
