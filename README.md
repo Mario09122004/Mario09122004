@@ -5,7 +5,8 @@ I’m Mario, a student of Technologies of Information and Software Development.
 I can do whatever I propose (of course with the correct time).
 
 My favorite tech stack:
-  Frontend: 
+
+Frontend: 
   - Next.js
   - Typescript
   - tailwind
