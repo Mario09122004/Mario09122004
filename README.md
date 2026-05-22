@@ -19,6 +19,9 @@ Backend:
 Analyze data or AI:
   - Python (Pandas, Tensorflow)
 
+Others:
+  - Docker
+
 but I understand that the choice of stack is depends of what I will work. For example, when choosing a database, it depends on whether the priority is read or write performance.
 
 However, when I have to use other technology, I like to check and test it, before use in the main project. For example, when I worked in an ESB-service with C#, I had tested and used C# in mini codes.
@@ -35,6 +38,7 @@ I like using mockups to organize all items which I use in the screen before codi
   - Play Videogames.
   - Learn/Test new technologies.
  ---
+ 
 ### Professional Links
 - **Personal GitHub:** [Mario09122004](https://github.com/Mario09122004).
 - **Corporate GitHub:** [MarioLiraGTech](https://github.com/MarioLiraGTech).
