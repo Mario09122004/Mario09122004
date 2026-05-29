@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="40" viewBox="0 0 300 40">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3e00" />
+      <stop offset="100%" stop-color="#ff7300" />
+    </linearGradient>
+    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4b5563" />
+      <stop offset="100%" stop-color="#6b7280" />
+    </linearGradient>
+  </defs>
+  <!-- Background Card -->
+  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="#4b5563" stroke-width="1.5"/>
+  
+  <!-- Tech Name -->
+  <text x="15" y="24" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">Java</text>
+  
+  <!-- Progress Bar Track -->
+  <rect x="130" y="16" width="110" height="8" rx="4" fill="#1f1f23"/>
+  
+  <!-- Progress Bar Fill -->
+  <rect x="130" y="16" width="49" height="8" rx="4" fill="url(#grayGrad)"/>
+  
+  <!-- Percentage Text -->
+  <text x="252" y="24" fill="#9ca3af" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">45%</text>
+</svg>
