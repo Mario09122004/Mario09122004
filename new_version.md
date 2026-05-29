@@ -12,15 +12,17 @@ I am an Information Technologies and Software Development student focused on bui
 
 ### My Software Development Approach
 
-- **Visual First:** I enjoy using mockups to plan and organize UI elements on the screen before writing the actual code.
+- **Visual First:** I like using mockups to plan and organize UI elements on the screen before writing the actual code.
+
 - **Pragmatic Tech Decisions:** I understand that the choice of tech stack depends entirely on the project. For example, when choosing a database, it depends on whether the priority is read or write performance.
+
 - **Sandbox Validation:** When I adopt a new technology, I explore and test it in isolated environments first. For instance, when I worked on an ESB-service with C#, I tested C# syntax and design patterns in mini-codes before using them in the main project.
 
 ---
 
 ### Technical Skills & Proficiency
 
-#### Favorite Tech Stack (Active)
+#### Favorite Tech Stack
 
 | Frontend                                               | Backend & Tools                                    |
 | :----------------------------------------------------- | :------------------------------------------------- |
@@ -28,15 +30,21 @@ I am an Information Technologies and Software Development student focused on bui
 | <img src="assets/skills/typescript.svg" width="280" /> | <img src="assets/skills/convex.svg" width="280" /> |
 | <img src="assets/skills/tailwind.svg" width="280" />   | <img src="assets/skills/docker.svg" width="280" /> |
 | <img src="assets/skills/shadcnui.svg" width="280" />   | <img src="assets/skills/python.svg" width="280" /> |
+| <img src="assets/skills/reactnative.svg" width="280" />| <img src="assets/skills/sqldb.svg" width="280" />  |
+|                                                        | <img src="assets/skills/nosqldb.svg" width="280" />|
+|                                                        | <img src="assets/skills/linux.svg" width="280" />  |
+|                                                        | <img src="assets/skills/git.svg" width="280" />    |
 
 #### Familiar / Less Practiced Technologies
 
-These are technologies I have explored or used in coursework and enterprise environments (such as ESB integrations) but do not practice on a daily basis:
+These are technologies I have explored or used in works (such as ESB integrations with C#) but do not practice currently:
 
-| Technology | Proficiency Card                                   |
-| :--------- | :------------------------------------------------- |
-| **C#**     | <img src="assets/skills/csharp.svg" width="280" /> |
-| **Java**   | <img src="assets/skills/java.svg" width="280" />   |
+| Technology        | Proficiency Card                                       |
+| :---------------- | :----------------------------------------------------- |
+| **C#**            | <img src="assets/skills/csharp.svg" width="280" />     |
+| **Java**          | <img src="assets/skills/java.svg" width="280" />       |
+| **Kubernetes**    | <img src="assets/skills/kubernetes.svg" width="280" /> |
+| **Arduino/ESP32** | <img src="assets/skills/arduino.svg" width="280" />    |
 
 ---
 
@@ -52,7 +60,7 @@ These are technologies I have explored or used in coursework and enterprise envi
 
 ### Links
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/mario-alberto-lira-zamora-b891b5361">
     <img src="https://img.shields.io/badge/LinkedIn-Mario_A._Lira_Z.-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>

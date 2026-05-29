@@ -19,8 +19,8 @@
   <rect x="130" y="16" width="110" height="8" rx="4" fill="#1f1f23"/>
   
   <!-- Progress Bar Fill -->
-  <rect x="130" y="16" width="88" height="8" rx="4" fill="url(#orangeGrad)"/>
+  <rect x="130" y="16" width="55" height="8" rx="4" fill="url(#orangeGrad)"/>
   
   <!-- Percentage Text -->
-  <text x="252" y="24" fill="#ff4a00" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">80%</text>
+  <text x="252" y="24" fill="#ff4a00" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">50%</text>
 </svg>

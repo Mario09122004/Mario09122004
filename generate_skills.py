@@ -7,19 +7,26 @@ import os
 SKILLS = {
     # Active Tech Stack (will be styled with bright neon orange gradients)
     "active": [
-        {"name": "Next.js", "proficiency": 95, "filename": "nextjs.svg"},
-        {"name": "TypeScript", "proficiency": 90, "filename": "typescript.svg"},
-        {"name": "Tailwind CSS", "proficiency": 90, "filename": "tailwind.svg"},
-        {"name": "Shadcn/ui", "proficiency": 85, "filename": "shadcnui.svg"},
-        {"name": "Convex", "proficiency": 80, "filename": "convex.svg"},
-        {"name": "Node.js", "proficiency": 85, "filename": "nodejs.svg"},
-        {"name": "Python", "proficiency": 75, "filename": "python.svg"},
-        {"name": "Docker", "proficiency": 80, "filename": "docker.svg"},
+        {"name": "Next.js", "proficiency": 60, "filename": "nextjs.svg"},
+        {"name": "TypeScript", "proficiency": 60, "filename": "typescript.svg"},
+        {"name": "Tailwind CSS", "proficiency": 40, "filename": "tailwind.svg"},
+        {"name": "Shadcn/ui", "proficiency": 80, "filename": "shadcnui.svg"},
+        {"name": "Convex", "proficiency": 50, "filename": "convex.svg"},
+        {"name": "Node.js", "proficiency": 35, "filename": "nodejs.svg"},
+        {"name": "Python", "proficiency": 35, "filename": "python.svg"},
+        {"name": "Docker", "proficiency": 60, "filename": "docker.svg"},
+        {"name": "React Native", "proficiency": 50, "filename": "reactnative.svg"},
+        {"name": "SQL DB", "proficiency": 60, "filename": "sqldb.svg"},
+        {"name": "NoSQL DB", "proficiency": 50, "filename": "nosqldb.svg"},
+        {"name": "Linux", "proficiency": 35, "filename": "linux.svg"},
+        {"name": "Git", "proficiency": 70, "filename": "git.svg"},
     ],
     # Secondary Tech Stack (will be styled with slate gray borders and gradients)
     "secondary": [
-        {"name": "C#", "proficiency": 50, "filename": "csharp.svg"},
-        {"name": "Java", "proficiency": 45, "filename": "java.svg"},
+        {"name": "C#", "proficiency": 10, "filename": "csharp.svg"},
+        {"name": "Java", "proficiency": 5, "filename": "java.svg"},
+        {"name": "Kubernetes", "proficiency": 30, "filename": "kubernetes.svg"},
+        {"name": "Arduino/ESP32", "proficiency": 30, "filename": "arduino.svg"},
     ]
 }
 # ==============================================================================

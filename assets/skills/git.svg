@@ -13,14 +13,14 @@
   <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="#ff4a00" stroke-width="1.5"/>
   
   <!-- Tech Name -->
-  <text x="15" y="24" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">Tailwind CSS</text>
+  <text x="15" y="24" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">Git</text>
   
   <!-- Progress Bar Track -->
   <rect x="130" y="16" width="110" height="8" rx="4" fill="#1f1f23"/>
   
   <!-- Progress Bar Fill -->
-  <rect x="130" y="16" width="44" height="8" rx="4" fill="url(#orangeGrad)"/>
+  <rect x="130" y="16" width="77" height="8" rx="4" fill="url(#orangeGrad)"/>
   
   <!-- Percentage Text -->
-  <text x="252" y="24" fill="#ff4a00" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">40%</text>
+  <text x="252" y="24" fill="#ff4a00" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">70%</text>
 </svg>
