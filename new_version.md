@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Mario's Banner" width="100%" />
+  <img src="./assets//Header.png" alt="Mario's Header" width="100%" />
 </p>
 
 # Hello, I'm Mario!
@@ -24,16 +24,16 @@ I am an Information Technologies and Software Development student focused on bui
 
 #### Favorite Tech Stack
 
-| Frontend                                               | Backend & Tools                                    |
-| :----------------------------------------------------- | :------------------------------------------------- |
-| <img src="assets/skills/nextjs.svg" width="280" />     | <img src="assets/skills/nodejs.svg" width="280" /> |
-| <img src="assets/skills/typescript.svg" width="280" /> | <img src="assets/skills/convex.svg" width="280" /> |
-| <img src="assets/skills/tailwind.svg" width="280" />   | <img src="assets/skills/docker.svg" width="280" /> |
-| <img src="assets/skills/shadcnui.svg" width="280" />   | <img src="assets/skills/python.svg" width="280" /> |
-| <img src="assets/skills/reactnative.svg" width="280" />| <img src="assets/skills/sqldb.svg" width="280" />  |
-|                                                        | <img src="assets/skills/nosqldb.svg" width="280" />|
-|                                                        | <img src="assets/skills/linux.svg" width="280" />  |
-|                                                        | <img src="assets/skills/git.svg" width="280" />    |
+| Frontend                                                | Backend & Tools                                     |
+| :------------------------------------------------------ | :-------------------------------------------------- |
+| <img src="assets/skills/nextjs.svg" width="280" />      | <img src="assets/skills/nodejs.svg" width="280" />  |
+| <img src="assets/skills/typescript.svg" width="280" />  | <img src="assets/skills/convex.svg" width="280" />  |
+| <img src="assets/skills/tailwind.svg" width="280" />    | <img src="assets/skills/docker.svg" width="280" />  |
+| <img src="assets/skills/shadcnui.svg" width="280" />    | <img src="assets/skills/python.svg" width="280" />  |
+| <img src="assets/skills/reactnative.svg" width="280" /> | <img src="assets/skills/sqldb.svg" width="280" />   |
+|                                                         | <img src="assets/skills/nosqldb.svg" width="280" /> |
+|                                                         | <img src="assets/skills/linux.svg" width="280" />   |
+|                                                         | <img src="assets/skills/git.svg" width="280" />     |
 
 #### Familiar / Less Practiced Technologies
 
