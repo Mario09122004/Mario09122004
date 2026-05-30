@@ -4,22 +4,12 @@
 
 # Hello, I'm Mario!
 
-> "I can do whatever I propose (given the right amount of time)."
+> "I can do whatever I propose (of course with the correct time)."
 
 **How to reach me:** mario.alberto.lira.zamora@gmail.com  
 **Languages:** Spanish (Native) | English (B1)
 
-I am an Information Technologies and Software Development student focused on building responsive user interfaces, performant APIs, and testing new technologies. I love writing clean, containerized applications and structuring user interfaces.
-
----
-
-### My Software Development Approach
-
-- **Visual First:** I like using mockups to plan and organize UI elements on the screen before writing the actual code.
-
-- **Pragmatic Tech Decisions:** I understand that the choice of tech stack depends entirely on the project. For example, when choosing a database, it depends on whether the priority is read or write performance.
-
-- **Sandbox Validation:** When I adopt a new technology, I explore and test it in isolated environments first. For instance, when I worked on an ESB-service with C#, I tested C# syntax and design patterns in mini-codes before using them in the main project.
+I am a student of Information Technologies and Software Development.
 
 ---
 
@@ -42,6 +32,12 @@ I am an Information Technologies and Software Development student focused on bui
 - <img src="assets/skills/legend/implemented.svg" width="18" valign="middle" /> **Implemented:** Implemented in at least one real project.
 - <img src="assets/skills/legend/deep_experience.svg" width="18" valign="middle" /> **Deep experience:** Deep experience and track record solving problems.
 - <img src="assets/skills/legend/archived.svg" width="18" valign="middle" /> **Archived:** Tool saved, know how to use it, but not in current use.
+
+However, I understand that the choice of stack is depends of what I will work. For example, when choosing a database, it depends on whether the priority is read or write performance.
+
+However, when I have to use other technology, I like to check and test it, before use in the main project. For example, when I worked in an ESB-service with C#, I had tested and used C# in mini codes.
+
+I like using mockups to organize all items which I use in the screen before coding it.
 
 ---
 
