@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="40" viewBox="0 0 300 40">
   <!-- Background Card -->
-  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="#0088ff" stroke-width="1.5"/>
+  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="#ff2a2a" stroke-width="1.5"/>
   
   <!-- Background Circle for Icon -->
   <circle cx="22" cy="20" r="12" fill="#1a1a1e"/>
@@ -9,8 +9,22 @@
   <!-- Tech Name -->
   <text x="42" y="24" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">Shadcn/ui</text>
   
-  <!-- Status Icon -->
+  <!-- Status Icon 0 (star) -->
   <svg x="268" y="10" width="20" height="20" viewBox="0 0 24 24">
-    <path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.784 1.4 8.168L12 18.896l-7.334 3.857 1.4-8.168L.132 9.21l8.2-1.192z" fill="#0088ff"/>
+    <path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.784 1.4 8.168L12 18.896l-7.334 3.857 1.4-8.168L.132 9.21l8.2-1.192z" fill="#ff2a2a"/>
+  </svg>
+  <!-- Status Icon 1 (star) -->
+  <svg x="246" y="10" width="20" height="20" viewBox="0 0 24 24">
+    <path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.784 1.4 8.168L12 18.896l-7.334 3.857 1.4-8.168L.132 9.21l8.2-1.192z" fill="#00cc66"/>
+  </svg>
+  <!-- Status Icon 2 (star) -->
+  <svg x="224" y="10" width="20" height="20" viewBox="0 0 24 24">
+    <path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.784 1.4 8.168L12 18.896l-7.334 3.857 1.4-8.168L.132 9.21l8.2-1.192z" fill="#888888"/>
+  </svg>
+  <!-- Status Icon 3 (box) -->
+  <svg x="202" y="10" width="20" height="20" viewBox="0 0 24 24">
+    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" fill="none" stroke="#d29054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3.27 6.96L12 12.01l8.73-5.05" fill="none" stroke="#d29054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 22.08V12" fill="none" stroke="#d29054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
 </svg>

@@ -22,23 +22,23 @@ I am an Information Technologies and Software Development student focused on bui
 
 ### Technical Skills & Proficiency
 
-| Frontend | Backend | Server & Tools |
-| :--- | :--- | :--- |
-| <img src="assets/skills/nextjs.svg" width="250" /> | <img src="assets/skills/nodejs.svg" width="250" /> | <img src="assets/skills/docker.svg" width="250" /> |
-| <img src="assets/skills/typescript.svg" width="250" /> | <img src="assets/skills/convex.svg" width="250" /> | <img src="assets/skills/linux.svg" width="250" /> |
-| <img src="assets/skills/tailwind.svg" width="250" /> | <img src="assets/skills/python.svg" width="250" /> | <img src="assets/skills/git.svg" width="250" /> |
-| <img src="assets/skills/shadcnui.svg" width="250" /> | <img src="assets/skills/sqldb.svg" width="250" /> | <img src="assets/skills/kubernetes.svg" width="250" /> |
-| <img src="assets/skills/reactnative.svg" width="250" /> | <img src="assets/skills/nosqldb.svg" width="250" /> | <img src="assets/skills/arduino.svg" width="250" /> |
-| | <img src="assets/skills/csharp.svg" width="250" /> | |
-| | <img src="assets/skills/java.svg" width="250" /> | |
+| Frontend                                                | Backend                                             | Server & Tools                                         |
+| :------------------------------------------------------ | :-------------------------------------------------- | :----------------------------------------------------- |
+| <img src="assets/skills/nextjs.svg" width="250" />      | <img src="assets/skills/nodejs.svg" width="250" />  | <img src="assets/skills/docker.svg" width="250" />     |
+| <img src="assets/skills/typescript.svg" width="250" />  | <img src="assets/skills/convex.svg" width="250" />  | <img src="assets/skills/linux.svg" width="250" />      |
+| <img src="assets/skills/tailwind.svg" width="250" />    | <img src="assets/skills/python.svg" width="250" />  | <img src="assets/skills/git.svg" width="250" />        |
+| <img src="assets/skills/shadcnui.svg" width="250" />    | <img src="assets/skills/sqldb.svg" width="250" />   | <img src="assets/skills/kubernetes.svg" width="250" /> |
+| <img src="assets/skills/reactnative.svg" width="250" /> | <img src="assets/skills/nosqldb.svg" width="250" /> | <img src="assets/skills/arduino.svg" width="250" />    |
+|                                                         | <img src="assets/skills/csharp.svg" width="250" />  |                                                        |
+|                                                         | <img src="assets/skills/java.svg" width="250" />    |                                                        |
 
 - 🔵 **Blue Star:** Constant use.
-- 🔴 **Red Star:** Favorite technology.
+- 🔴 **Red Star:** I like that technology.
 - 🟣 **Purple Star:** Learning.
 - ⚪ **Gray Star:** Touched it and know the basics.
 - 🟢 **Green Star:** Implemented in at least one real project.
 - 🟡 **Yellow Star:** Deep experience and track record solving problems.
-- 📦 **Inventory Box (Archived):** Tool saved, know how to use it, but not in current use.
+- 📦 **Archived:** Tool saved, know how to use it, but not in current use.
 
 ---
 
@@ -52,6 +52,12 @@ I am an Information Technologies and Software Development student focused on bui
 
 ---
 
+### GitHub Contributions
+
+![GitHub Contributions](https://ghchart.rshah.org/Mario09122004)
+
+---
+
 ### Links
 
 <p align="left">
@@ -61,6 +67,7 @@ I am an Information Technologies and Software Development student focused on bui
   <br>
   <a href="https://github.com/Mario09122004">
     <img src="https://img.shields.io/badge/Personal_GitHub-Mario09122004-ff4a00?style=for-the-badge&logo=github&logoColor=white" />
+    
   </a>
   <br>
   <a href="https://github.com/MarioLiraGTech">

@@ -1,0 +1,227 @@
+{
+  "active": [
+    {
+      "name": "Next.js",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "nextjs.svg"
+    },
+    {
+      "name": "TypeScript",
+      "status": {
+        "Constant": true,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "typescript.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "status": {
+        "Constant": true,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "tailwind.svg"
+    },
+    {
+      "name": "Shadcn/ui",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": false,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "shadcnui.svg"
+    },
+    {
+      "name": "Convex",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": false,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "convex.svg"
+    },
+    {
+      "name": "Node.js",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "nodejs.svg"
+    },
+    {
+      "name": "Python",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "python.svg"
+    },
+    {
+      "name": "Docker",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "docker.svg"
+    },
+    {
+      "name": "React Native",
+      "status": {
+        "Constant": true,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": false,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "reactnative.svg"
+    },
+    {
+      "name": "SQL DB",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "sqldb.svg"
+    },
+    {
+      "name": "NoSQL DB",
+      "status": {
+        "Constant": false,
+        "Favorite": false,
+        "Learning": false,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "nosqldb.svg"
+    },
+    {
+      "name": "Linux",
+      "status": {
+        "Constant": true,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "linux.svg"
+    },
+    {
+      "name": "Git",
+      "status": {
+        "Constant": true,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": false
+      },
+      "filename": "git.svg"
+    }
+  ],
+  "secondary": [
+    {
+      "name": "C#",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": false,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "csharp.svg"
+    },
+    {
+      "name": "Java",
+      "status": {
+        "Constant": false,
+        "Favorite": false,
+        "Learning": false,
+        "Touched": true,
+        "Implemented": false,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "java.svg"
+    },
+    {
+      "name": "Kubernetes",
+      "status": {
+        "Constant": false,
+        "Favorite": true,
+        "Learning": true,
+        "Touched": true,
+        "Implemented": false,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "kubernetes.svg"
+    },
+    {
+      "name": "Arduino/ESP32",
+      "status": {
+        "Constant": false,
+        "Favorite": false,
+        "Learning": false,
+        "Touched": true,
+        "Implemented": true,
+        "Deep experience": false,
+        "Archived": true
+      },
+      "filename": "arduino.svg"
+    }
+  ]
+}
