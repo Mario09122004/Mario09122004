@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets//Header.png" alt="Mario's Header" width="100%" />
+  <img src="./assets//Header.png" alt="Mario's Header" width="100%" style="margin-bottom: -70px;" />
 </p>
 
 # Hello, I'm Mario!
