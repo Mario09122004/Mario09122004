@@ -22,7 +22,15 @@ I am an Information Technologies and Software Development student focused on bui
 
 ### Technical Skills & Proficiency
 
-#### Legend
+| Frontend | Backend | Server & Tools |
+| :--- | :--- | :--- |
+| <img src="assets/skills/nextjs.svg" width="250" /> | <img src="assets/skills/nodejs.svg" width="250" /> | <img src="assets/skills/docker.svg" width="250" /> |
+| <img src="assets/skills/typescript.svg" width="250" /> | <img src="assets/skills/convex.svg" width="250" /> | <img src="assets/skills/linux.svg" width="250" /> |
+| <img src="assets/skills/tailwind.svg" width="250" /> | <img src="assets/skills/python.svg" width="250" /> | <img src="assets/skills/git.svg" width="250" /> |
+| <img src="assets/skills/shadcnui.svg" width="250" /> | <img src="assets/skills/sqldb.svg" width="250" /> | <img src="assets/skills/kubernetes.svg" width="250" /> |
+| <img src="assets/skills/reactnative.svg" width="250" /> | <img src="assets/skills/nosqldb.svg" width="250" /> | <img src="assets/skills/arduino.svg" width="250" /> |
+| | <img src="assets/skills/csharp.svg" width="250" /> | |
+| | <img src="assets/skills/java.svg" width="250" /> | |
 
 - 🔵 **Blue Star:** Constant use.
 - 🔴 **Red Star:** Favorite technology.
@@ -31,32 +39,6 @@ I am an Information Technologies and Software Development student focused on bui
 - 🟢 **Green Star:** Implemented in at least one real project.
 - 🟡 **Yellow Star:** Deep experience and track record solving problems.
 - 📦 **Inventory Box (Archived):** Tool saved, know how to use it, but not in current use.
-
----
-
-#### Favorite Tech Stack
-
-| Frontend                                                | Backend & Tools                                     |
-| :------------------------------------------------------ | :-------------------------------------------------- |
-| <img src="assets/skills/nextjs.svg" width="280" />      | <img src="assets/skills/nodejs.svg" width="280" />  |
-| <img src="assets/skills/typescript.svg" width="280" />  | <img src="assets/skills/convex.svg" width="280" />  |
-| <img src="assets/skills/tailwind.svg" width="280" />    | <img src="assets/skills/docker.svg" width="280" />  |
-| <img src="assets/skills/shadcnui.svg" width="280" />    | <img src="assets/skills/python.svg" width="280" />  |
-| <img src="assets/skills/reactnative.svg" width="280" /> | <img src="assets/skills/sqldb.svg" width="280" />   |
-|                                                         | <img src="assets/skills/nosqldb.svg" width="280" /> |
-|                                                         | <img src="assets/skills/linux.svg" width="280" />   |
-|                                                         | <img src="assets/skills/git.svg" width="280" />     |
-
-#### Familiar / Less Practiced Technologies
-
-These are technologies I have explored or used in works (such as ESB integrations with C#) but do not practice currently:
-
-| Technology        | Proficiency Card                                       |
-| :---------------- | :----------------------------------------------------- |
-| **C#**            | <img src="assets/skills/csharp.svg" width="280" />     |
-| **Java**          | <img src="assets/skills/java.svg" width="280" />       |
-| **Kubernetes**    | <img src="assets/skills/kubernetes.svg" width="280" /> |
-| **Arduino/ESP32** | <img src="assets/skills/arduino.svg" width="280" />    |
 
 ---
 
