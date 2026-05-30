@@ -1,22 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="40" viewBox="0 0 300 40">
-  <defs>
-    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff3e00" />
-      <stop offset="100%" stop-color="#ff7300" />
-    </linearGradient>
-    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4b5563" />
-      <stop offset="100%" stop-color="#6b7280" />
-    </linearGradient>
-    <filter id="grayscale">
-      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0
-                                           0.33 0.33 0.33 0 0
-                                           0.33 0.33 0.33 0 0
-                                           0    0    0    1 0"/>
-    </filter>
-  </defs>
   <!-- Background Card -->
-  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="#ff4a00" stroke-width="1.5"/>
+  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="#0088ff" stroke-width="1.5"/>
   
   <!-- Background Circle for Icon -->
   <circle cx="22" cy="20" r="12" fill="#ffffff"/>
@@ -25,12 +9,8 @@
   <!-- Tech Name -->
   <text x="42" y="24" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">Tailwind CSS</text>
   
-  <!-- Progress Bar Track -->
-  <rect x="145" y="16" width="95" height="8" rx="4" fill="#1f1f23"/>
-  
-  <!-- Progress Bar Fill -->
-  <rect x="145" y="16" width="38" height="8" rx="4" fill="url(#orangeGrad)"/>
-  
-  <!-- Percentage Text -->
-  <text x="252" y="24" fill="#ff4a00" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">40%</text>
+  <!-- Status Icon -->
+  <svg x="268" y="10" width="20" height="20" viewBox="0 0 24 24">
+    <path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.784 1.4 8.168L12 18.896l-7.334 3.857 1.4-8.168L.132 9.21l8.2-1.192z" fill="#0088ff"/>
+  </svg>
 </svg>

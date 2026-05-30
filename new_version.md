@@ -22,6 +22,18 @@ I am an Information Technologies and Software Development student focused on bui
 
 ### Technical Skills & Proficiency
 
+#### Legend
+
+- 🔵 **Blue Star:** Constant use.
+- 🔴 **Red Star:** Favorite technology.
+- 🟣 **Purple Star:** Learning.
+- ⚪ **Gray Star:** Touched it and know the basics.
+- 🟢 **Green Star:** Implemented in at least one real project.
+- 🟡 **Yellow Star:** Deep experience and track record solving problems.
+- 📦 **Inventory Box (Archived):** Tool saved, know how to use it, but not in current use.
+
+---
+
 #### Favorite Tech Stack
 
 | Frontend                                                | Backend & Tools                                     |

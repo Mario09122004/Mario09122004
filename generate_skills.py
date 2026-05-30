@@ -3,31 +3,28 @@ import re
 
 # ==============================================================================
 # 🛠️ EDIT YOUR SKILLS HERE
-# You can change the percentages, add new skills, or change titles.
 # ==============================================================================
 SKILLS = {
-    # Active Tech Stack (will be styled with bright neon orange gradients)
     "active": [
-        {"name": "Next.js", "proficiency": 60, "filename": "nextjs.svg"},
-        {"name": "TypeScript", "proficiency": 60, "filename": "typescript.svg"},
-        {"name": "Tailwind CSS", "proficiency": 40, "filename": "tailwind.svg"},
-        {"name": "Shadcn/ui", "proficiency": 80, "filename": "shadcnui.svg"},
-        {"name": "Convex", "proficiency": 50, "filename": "convex.svg"},
-        {"name": "Node.js", "proficiency": 35, "filename": "nodejs.svg"},
-        {"name": "Python", "proficiency": 35, "filename": "python.svg"},
-        {"name": "Docker", "proficiency": 60, "filename": "docker.svg"},
-        {"name": "React Native", "proficiency": 50, "filename": "reactnative.svg"},
-        {"name": "SQL DB", "proficiency": 60, "filename": "sqldb.svg"},
-        {"name": "NoSQL DB", "proficiency": 50, "filename": "nosqldb.svg"},
-        {"name": "Linux", "proficiency": 35, "filename": "linux.svg"},
-        {"name": "Git", "proficiency": 70, "filename": "git.svg"},
+        {"name": "Next.js", "status": "blue_star", "filename": "nextjs.svg"},
+        {"name": "TypeScript", "status": "blue_star", "filename": "typescript.svg"},
+        {"name": "Tailwind CSS", "status": "blue_star", "filename": "tailwind.svg"},
+        {"name": "Shadcn/ui", "status": "blue_star", "filename": "shadcnui.svg"},
+        {"name": "Convex", "status": "purple_star", "filename": "convex.svg"},
+        {"name": "Node.js", "status": "green_star", "filename": "nodejs.svg"},
+        {"name": "Python", "status": "purple_star", "filename": "python.svg"},
+        {"name": "Docker", "status": "red_star", "filename": "docker.svg"},
+        {"name": "React Native", "status": "purple_star", "filename": "reactnative.svg"},
+        {"name": "SQL DB", "status": "green_star", "filename": "sqldb.svg"},
+        {"name": "NoSQL DB", "status": "green_star", "filename": "nosqldb.svg"},
+        {"name": "Linux", "status": "gray_star", "filename": "linux.svg"},
+        {"name": "Git", "status": "yellow_star", "filename": "git.svg"},
     ],
-    # Secondary Tech Stack (will be styled with slate gray borders and gradients)
     "secondary": [
-        {"name": "C#", "proficiency": 10, "filename": "csharp.svg"},
-        {"name": "Java", "proficiency": 5, "filename": "java.svg"},
-        {"name": "Kubernetes", "proficiency": 30, "filename": "kubernetes.svg"},
-        {"name": "Arduino/ESP32", "proficiency": 30, "filename": "arduino.svg"},
+        {"name": "C#", "status": "archived", "filename": "csharp.svg"},
+        {"name": "Java", "status": "archived", "filename": "java.svg"},
+        {"name": "Kubernetes", "status": "archived", "filename": "kubernetes.svg"},
+        {"name": "Arduino/ESP32", "status": "archived", "filename": "arduino.svg"},
     ]
 }
 
@@ -50,6 +47,40 @@ ICON_MAPPING = {
     "Kubernetes": "kubernetes.svg",
     "Arduino/ESP32": "arduino.svg"
 }
+
+STATUS_CONFIG = {
+    "blue_star": {
+        "color": "#0088ff",
+        "icon": "star"
+    },
+    "red_star": {
+        "color": "#ff2a2a",
+        "icon": "star"
+    },
+    "purple_star": {
+        "color": "#b624ff",
+        "icon": "star"
+    },
+    "gray_star": {
+        "color": "#888888",
+        "icon": "star"
+    },
+    "green_star": {
+        "color": "#00cc66",
+        "icon": "star"
+    },
+    "yellow_star": {
+        "color": "#ffcc00",
+        "icon": "star"
+    },
+    "archived": {
+        "color": "#d29054",  # Cardboard brown
+        "icon": "box"
+    }
+}
+
+STAR_PATH = "M12 .587l3.668 7.431 8.2 1.192-5.934 5.784 1.4 8.168L12 18.896l-7.334 3.857 1.4-8.168L.132 9.21l8.2-1.192z"
+
 # ==============================================================================
 
 def get_icon_svg(tech_name, icons_dir):
@@ -83,18 +114,21 @@ def get_icon_svg(tech_name, icons_dir):
         print(f"Error reading icon for {tech_name}: {e}")
         return ""
 
-def create_svg(tech_name, proficiency, is_active, icons_dir, output_path):
-    track_width = 95
-    fill_width = int(track_width * (proficiency / 100.0))
+def create_svg(tech_name, status, icons_dir, output_path):
+    config = STATUS_CONFIG.get(status)
+    if not config:
+        print(f"Error: Status {status} not found for {tech_name}")
+        return
+        
+    color = config["color"]
+    icon_type = config["icon"]
     
-    if is_active:
-        border_color = "#ff4a00"
-        fill_color = "url(#orangeGrad)"
-        text_color = "#ff4a00"
+    if icon_type == "star":
+        status_icon_svg = f'<path d="{STAR_PATH}" fill="{color}"/>'
     else:
-        border_color = "#4b5563"  # gray-600
-        fill_color = "url(#grayGrad)"
-        text_color = "#9ca3af"  # gray-400
+        status_icon_svg = f'''<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3.27 6.96L12 12.01l8.73-5.05" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 22.08V12" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'''
         
     icon_svg = get_icon_svg(tech_name, icons_dir)
     
@@ -113,38 +147,18 @@ def create_svg(tech_name, proficiency, is_active, icons_dir, output_path):
         icon_element = ""
         
     svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="40" viewBox="0 0 300 40">
-  <defs>
-    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff3e00" />
-      <stop offset="100%" stop-color="#ff7300" />
-    </linearGradient>
-    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4b5563" />
-      <stop offset="100%" stop-color="#6b7280" />
-    </linearGradient>
-    <filter id="grayscale">
-      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0
-                                           0.33 0.33 0.33 0 0
-                                           0.33 0.33 0.33 0 0
-                                           0    0    0    1 0"/>
-    </filter>
-  </defs>
   <!-- Background Card -->
-  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="{border_color}" stroke-width="1.5"/>
+  <rect width="300" height="40" rx="8" fill="#0d0d0f" stroke="{color}" stroke-width="1.5"/>
   
 {icon_element}
   
   <!-- Tech Name -->
   <text x="42" y="24" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">{tech_name}</text>
   
-  <!-- Progress Bar Track -->
-  <rect x="145" y="16" width="{track_width}" height="8" rx="4" fill="#1f1f23"/>
-  
-  <!-- Progress Bar Fill -->
-  <rect x="145" y="16" width="{fill_width}" height="8" rx="4" fill="{fill_color}"/>
-  
-  <!-- Percentage Text -->
-  <text x="252" y="24" fill="{text_color}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold">{proficiency}%</text>
+  <!-- Status Icon -->
+  <svg x="268" y="10" width="20" height="20" viewBox="0 0 24 24">
+    {status_icon_svg}
+  </svg>
 </svg>
 """
     # Ensure folder exists
@@ -158,15 +172,15 @@ if __name__ == "__main__":
     output_dir = os.path.join(script_dir, "assets", "skills")
     icons_dir = os.path.join(script_dir, "assets", "technology_icons")
     
-    print("Generating skill badges with technology icons...")
+    print("Generating skill badges with technology icons & star status...")
     for skill in SKILLS["active"]:
         path = os.path.join(output_dir, skill["filename"])
-        create_svg(skill["name"], skill["proficiency"], True, icons_dir, path)
-        print(f"  [Active]    {skill['name']} ({skill['proficiency']}%) -> {skill['filename']}")
+        create_svg(skill["name"], skill["status"], icons_dir, path)
+        print(f"  [Active]    {skill['name']} ({skill['status']}) -> {skill['filename']}")
         
     for skill in SKILLS["secondary"]:
         path = os.path.join(output_dir, skill["filename"])
-        create_svg(skill["name"], skill["proficiency"], False, icons_dir, path)
-        print(f"  [Secondary] {skill['name']} ({skill['proficiency']}%) -> {skill['filename']}")
+        create_svg(skill["name"], skill["status"], icons_dir, path)
+        print(f"  [Secondary] {skill['name']} ({skill['status']}) -> {skill['filename']}")
         
     print("\nGeneration complete! SVGs saved in assets/skills/")
