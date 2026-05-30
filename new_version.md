@@ -6,6 +6,9 @@
 
 > "I can do whatever I propose (given the right amount of time)."
 
+**How to reach me:** mario.alberto.lira.zamora@gmail.com  
+**Languages:** Spanish (Native) | English (B1)
+
 I am an Information Technologies and Software Development student focused on building responsive user interfaces, performant APIs, and testing new technologies. I love writing clean, containerized applications and structuring user interfaces.
 
 ---
