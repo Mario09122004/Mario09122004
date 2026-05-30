@@ -2,6 +2,9 @@ import os
 import re
 import json
 
+# ==============================================================================
+# Load skills configuration from JSON file
+# ==============================================================================
 script_dir = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(script_dir, "assets", "skills.json")
 
@@ -180,11 +183,38 @@ def process_skill(skill, output_dir, icons_dir):
             
     create_svg(skill["name"], indicators, icons_dir, path)
 
+def generate_legend_svgs(output_dir):
+    legend_dir = os.path.join(output_dir, "legend")
+    os.makedirs(legend_dir, exist_ok=True)
+    
+    for key, config in STATUS_MAPPING.items():
+        color = config["color"]
+        icon_type = config["icon"]
+        filename = f"{key.replace(' ', '_')}.svg"
+        path = os.path.join(legend_dir, filename)
+        
+        if icon_type == "star":
+            path_svg = f'<path d="{STAR_PATH}" fill="{color}"/>'
+        else:
+            path_svg = f'''<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3.27 6.96L12 12.01l8.73-5.05" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 22.08V12" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'''
+            
+        svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  {path_svg}
+</svg>
+"""
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(svg_content)
+        print(f"  [Legend]    {key} -> legend/{filename}")
+
 if __name__ == "__main__":
     output_dir = os.path.join(script_dir, "assets", "skills")
     icons_dir = os.path.join(script_dir, "assets", "technology_icons")
     
-    print("Generating skill badges with technology icons & customizable status configurations...")
+    print("Generating skill badges & legend icons...")
+    generate_legend_svgs(output_dir)
+    
     for skill in SKILLS["active"]:
         process_skill(skill, output_dir, icons_dir)
         print(f"  [Active]    {skill['name']} -> {skill['filename']}")
