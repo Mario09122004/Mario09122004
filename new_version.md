@@ -77,13 +77,3 @@ I am an Information Technologies and Software Development student focused on bui
     <img src="https://img.shields.io/badge/Corporate_GitHub-MarioLiraGTech-4b5563?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
-
-<!--
-
-**Want to update these scores or add new skills?**
-Simply modify the dictionary at the top of [`generate_skills.py`](generate_skills.py) and run it via terminal:
-```bash
-python3 generate_skills.py
-```
-
--->
