@@ -62,8 +62,10 @@ I like using mockups to organize all items which I use in the screen before codi
     <img src="https://img.shields.io/badge/Personal_GitHub-Mario09122004-ff4a00?style=for-the-badge&logo=github&logoColor=white" />
     
   </a>
+  <!--
   <br>
   <a href="https://github.com/MarioLiraGTech">
     <img src="https://img.shields.io/badge/Corporate_GitHub-MarioLiraGTech-4b5563?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  -->
 </p>
